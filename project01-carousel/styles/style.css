@@ -16,7 +16,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background: #780206;
+  background: -webkit-linear-gradient(to right, #60065a, #d96e06);
+  background: linear-gradient(to right, #60065a, #d96e06);
 }
 
 /* global css */
@@ -33,6 +35,127 @@ a {
 
 li {
   list-style: none;
+}
+
+:root {
+  --carousel-height: 350px;
+  --carousel-radius: 0.5em;
+  --carousel-nav-btn-dim: 3em;
+  --carousel-page-nav-btn-dim: 0.5em;
+  --carousel-caption-padding: 2em;
+  --carousel-caption-color: #fff;
+  --carousel-caption-bg: linear-gradient(to bottom,
+      transparent,
+      hsl(0 0 0 / 65%) 80%);
+  --carousel-inner-spacing: 2em;
+  --carousel-prev-next-btn-bg: #fff;
+  --carousel-prev-next-btn-color: #333;
+  --carousel-pagination-margin: 1em;
+  --carousel-pagination-gap: 0.75em;
+  --carousel-pagination-btn-bg: #aaa;
+  --carousel-pagination-btn-active-bg: #333;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+.site-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.carousel-inner {
+  overflow: hidden;
+  position: relative;
+  min-height: var(--carousel-height);
+  border-radius: var(--carousel-radius);
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.carousel-title+.carousel-description {
+  color: #888;
+  margin-top: 0;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.slide-content {
+  position: relative;
+  z-index: 5000;
+  height: 100%;
+}
+
+.slide-caption {
+  width: 100%;
+  position: absolute;
+  padding: var(--carousel-caption-padding);
+  left: 0;
+  bottom: 0;
+  color: var(--carousel-caption-color);
+  background-image: var(--carousel-caption-bg);
+}
+
+.slide-caption a {
+  color: currentColor;
+}
+
+.slide-caption h3 {
+  margin: 0;
+}
+
+.slide img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  width: var(--carousel-nav-btn-dim);
+  height: var(--carousel-nav-btn-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--carousel-prev-next-btn-color);
+  background-color: var(--carousel-prev-next-btn-bg);
+}
+
+.carousel-btn--prev-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s ease-in-out;
+}
+
+.carousel-btn--prev-next:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.carousel-btn--prev {
+  left: var(--carousel-inner-spacing);
+}
+
+.carousel-btn--next {
+  right: var(--carousel-inner-spacing);
 }
 
 /* Media Query */
