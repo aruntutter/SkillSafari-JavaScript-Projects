@@ -18,6 +18,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: An interactive carousel to display a series of images or content slides.
    - Technologies: HTML, CSS, JavaScript
+   - [Live Demo](https://project01-carousel.netlify.app/)
 
 2. **Calculator**
 
