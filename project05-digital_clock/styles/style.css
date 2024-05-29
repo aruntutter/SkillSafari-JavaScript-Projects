@@ -58,4 +58,8 @@ body {
   .container span {
     margin-left: 0;
   }
+
+  #ampm {
+    margin-top: 1rem;
+  }
 }
