@@ -15,25 +15,95 @@ html {
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(121, 32, 153, 1) 86%);
+  background-attachment: fixed;
 }
 
-/* global css */
-img {
+#form {
+  width: 400px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #792099;
+}
+
+#form button {
+  background-color: #792099;
+  color: white;
+  border: 1px solid #792099;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 20px;
   width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
-a {
-  text-decoration: none;
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
 
-li {
-  list-style: none;
+.input-group input {
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgb(34, 193, 195);
+}
+
+.input-group input:focus {
+  outline: 0;
+}
+
+.input-group .error {
+  color: rgb(242, 18, 18);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.input-group.success input {
+  border-color: #0cc477;
+}
+
+.input-group.error input {
+  border-color: rgb(206, 67, 67);
 }
 
 /* Media Query */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  #form {
+    width: 320px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+  }
+
+  .input-group input {
+    font-size: 14px;
+  }
+
+  .input-group .error {
+    font-size: 14px;
+  }
+
+  #form button {
+    font-size: 16px;
+  }
+}
