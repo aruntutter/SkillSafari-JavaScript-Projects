@@ -53,6 +53,7 @@ Each project in this repository demonstrates different aspects of web developmen
 7. **Weather Application**
    - Description: An application that fetches and displays weather data based on user input.
    - Technologies: HTML, CSS, JavaScript, API Integration
+   - [Live Demo](https://project07-weather-application.netlify.app/)
 
 ## Contributing
 
