@@ -24,6 +24,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: A basic calculator for performing arithmetic operations.
    - Technologies: HTML, CSS, JavaScript
+   - [Live Demo](https://project02-calculator.netlify.app/)
 
 3. **Form Validation**
 
