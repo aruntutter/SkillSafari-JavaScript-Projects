@@ -42,6 +42,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: A real-time digital clock displaying the current time.
    - Technologies: HTML, CSS, JavaScript
+   - [Live Demo](https://project05-digital-clock.netlify.app/)
 
 6. **GitHub Profile Card**
 
