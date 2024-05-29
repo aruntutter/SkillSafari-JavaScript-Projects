@@ -20,7 +20,35 @@
 </head>
 
 <body>
-  <h1>Boiler Plate Code</h1>
+  <div class="container">
+    <div class="search">
+      <input type="text" id="username-input" placeholder="Enter GitHub Username" />
+      <button id="search-button">Search</button>
+    </div>
+    <div class="profile-card">
+      <div class="profile-image">
+        <img src="" alt="User Avatar" id="avatar" />
+      </div>
+      <div class="profile-info">
+        <h2 id="name">Name</h2>
+        <p id="bio">Bio</p>
+        <div class="stats">
+          <div>
+            <h3 id="repos">0</h3>
+            <p>Repositories</p>
+          </div>
+          <div>
+            <h3 id="followers">0</h3>
+            <p>Followers</p>
+          </div>
+          <div>
+            <h3 id="following">0</h3>
+            <p>Following</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="./scripts/script.js"></script>
 </body>
