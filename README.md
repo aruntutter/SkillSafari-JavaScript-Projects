@@ -48,6 +48,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: A card displaying GitHub profile information by fetching data from the GitHub API.
    - Technologies: HTML, CSS, JavaScript, API Integration
+   - [Live Demo](https://project06-github-profile-card.netlify.app/)
 
 7. **Weather Application**
    - Description: An application that fetches and displays weather data based on user input.
