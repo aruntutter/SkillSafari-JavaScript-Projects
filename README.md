@@ -36,6 +36,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: An application to track expenses, with functionalities to add, view, and delete expense records.
    - Technologies: HTML, CSS, JavaScript, CRUD Operation
+   - [Live Demo](https://project04-expense-tracker.netlify.app/)
 
 5. **Digital Clock**
 
