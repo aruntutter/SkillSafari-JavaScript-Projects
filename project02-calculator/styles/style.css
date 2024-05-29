@@ -44,6 +44,7 @@ body {
 .display {
   height: 80px;
   width: 100%;
+  padding: 0 7px;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
