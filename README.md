@@ -30,6 +30,7 @@ Each project in this repository demonstrates different aspects of web developmen
 
    - Description: A form with validation to ensure user input meets specified criteria.
    - Technologies: HTML, CSS, JavaScript
+   - [Live Demo](https://project03-form-validation.netlify.app/)
 
 4. **Expense Tracker**
 
