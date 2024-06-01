@@ -1,6 +1,6 @@
 # SkillSafari-JavaScript-Projects
 
-Welcome to the SkillSafari JavaScript Projects repository! This repository contains a collection of 7 projects developed as part of the Skill Safari curriculum. These projects are designed to showcase various skills and competencies in web development using HTML, CSS, and JavaScript (API Integration - CRUD Operation). Please note that these projects are currently in progress, and project demos will be added soon.
+Welcome to the SkillSafari JavaScript Projects repository! This repository contains a collection of 7 projects developed as part of the Skill Safari curriculum. These projects are designed to showcase various skills and competencies in web development using HTML, CSS, and JavaScript (API Integration - CRUD Operation).
 
 ## Table of Contents
 
